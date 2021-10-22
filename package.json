@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generate a HTML Team Profile from the command line",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qcent/team-profile-generator.git"
+  },
+  "author": "Dave Quinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qcent/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/Qcent/team-profile-generator#readme"
+}
