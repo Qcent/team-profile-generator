@@ -28,6 +28,8 @@ Then follow the onscreen questions to build your team profile. Once completed yo
 
 [![Team Profile Generator Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1635023019/video_to_markdown/images/google-drive--1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H/view "Team Profile Generator Demo")
 
+[![Sample Output](./assets/images/app-screenshot.png)](https://qcent.github.io/team-profile-generator/)
+
 ## Credits
 This project uses Bullma as a CSS framework for the header/hero and the team member cards.  \
 The `<body>` background image is graciously provided by: [images.unsplash.com](https://images.unsplash.com/).  \
