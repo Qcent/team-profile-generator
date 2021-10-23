@@ -24,7 +24,7 @@ This will download the npm inquirer package.
 ## Usage
 
 From the project directory type ` node index.js `.  \
-Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder.  \
+Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder. 
  
 Demo Command Line Video: 
 
