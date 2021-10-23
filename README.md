@@ -18,16 +18,20 @@ Generate a beautiful HTML profile for your next Team with this handy command lin
 
 ## Installation
 
-Download repository files then run ` npm install `.
+Download repository files then run ` npm install `. \
 This will download the npm inquirer package.
 
 ## Usage
 
-From the project directory type ` node index.js `. 
-Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder. 
+From the project directory type ` node index.js `.  \
+Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder.  \
+ 
+Demo Command Line Video: 
 
 [![Team Profile Generator Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1635023019/video_to_markdown/images/google-drive--1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H/view "Team Profile Generator Demo")
 
+ 
+Demo HTML Output:
 [![Sample Output](./assets/images/app-screenshot.png)](https://qcent.github.io/team-profile-generator/)
 
 ## Credits
