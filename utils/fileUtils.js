@@ -24,11 +24,9 @@ const copyFile = () => {
 
         fs.copyFile('./src/style.css', './dist/style.css', err => {
             if (err) {
-                //CODE HERE
                 reject(err);
                 return;
             }
-
             resolve({
                 ok: true,
                 message: 'CSS Copied!'
