@@ -1,7 +1,7 @@
-const TeamManager = require('../lib/TeamManager.js');
+const Manager = require('../lib/Manager.js');
 
 test('creates a TeamManager object', () => {
-    const manager = new TeamManager('Dave', 69, 'dquinn8@cogeco.ca', 7);
+    const manager = new Manager('Dave', 69, 'dquinn8@cogeco.ca', 7);
 
     expect(manager.name).toBe('Dave');
     expect(manager.employeeId).toEqual(expect.any(Number));
