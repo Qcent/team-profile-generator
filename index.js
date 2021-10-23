@@ -4,12 +4,19 @@ myTeam = new Team();
 // Create a function to initialize app
 const startNewTeam = () => {
 
-    return myTeam.addMember('TeamManager');
+    console.clear();
+    console.log(`
+            ==============================
+            **  Team Profile Generator  **
+            ==============================
+`);
+    return myTeam.addMember('manager');
 };
 
 // Function call to initialize app
 startNewTeam()
-    .then(data => console.log(myTeam))
+    .then(() => myTeam.promptNewMember())
+    .then(() => console.log(myTeam))
     /*   .then(data => generateMarkdown(data))
     .then(markdown => writeFile(markdown))
     .then(status => console.log(status))
