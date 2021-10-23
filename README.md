@@ -27,10 +27,10 @@ From the project directory type ` node index.js `.
 Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder. 
 
 ## Credits
-This project uses Bullma as a CSS framework for the header/hero and the team member cards.  
-The `<body>` background image is graciously provided by: [images.unsplash.com](https://images.unsplash.com/).  
-SVG images hosted by [SVG Repo.com](https://www.svgrepo.com/).
-And special thanks to the hard working developers responsible for the `inquirer' package. 
+This project uses Bullma as a CSS framework for the header/hero and the team member cards.  \
+The `<body>` background image is graciously provided by: [images.unsplash.com](https://images.unsplash.com/).  \
+SVG images hosted by [SVG Repo.com](https://www.svgrepo.com/). \
+And special thanks to the hard working developers responsible for the `inquirer` package. 
 
 ## Questions
 
