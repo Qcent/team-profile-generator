@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     background-image: url("https://images.unsplash.com/photo-1536566320732-ccc210d75500?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80");
 }
 

@@ -49,12 +49,12 @@ const generateTeamHTML = team => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Dev Team Profile</title>
+    <title>${team.name} Profile</title>
 </head>
 <body>
 <header class ='hero is-warning'>
 <div class='hero-body'>
-<p class='title'>My Team</p>
+<p class='title'>${team.name}</p>
 </div>
 </header>
 <main class="is-flex is-justify-content-center is-flex-wrap-wrap">
