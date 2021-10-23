@@ -4,7 +4,7 @@
  ![MIT](https://img.shields.io/badge/License-MIT-orange)  ![HTML](https://img.shields.io/badge/Tech-HTML-lightblue)  ![CSS](https://img.shields.io/badge/Tech-CSS-lightblue)  ![Node.js](https://img.shields.io/badge/Tech-Node.js-lightblue)  ![Bulma](https://img.shields.io/badge/Tech-Bulma-lightblue)  ![Inquirer](https://img.shields.io/badge/Tech-Inquirer-lightblue) 
 
 ## Description
-Generate an beautiful HTML profile for your next Team with this handy command line app written for `Node.js`  
+Generate a beautiful HTML profile for your next Team with this handy command line app written for `Node.js`  
 
 ## Table of Contents
 
@@ -18,20 +18,18 @@ Generate an beautiful HTML profile for your next Team with this handy command li
 
 ## Installation
 
-Download repository files then run  
- ```npm install```  
- This will download the npm inquirer package.
+Download repository files then run `npm install`.
+This will download the npm inquirer package.
 
 ## Usage
 
-From the project directory type  
- ``` node index.js ```  
- Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder. 
+From the project directory type ` node index.js `. 
+Then follow the onscreen questions to build your team profile. Once completed your `team.html` and `style.css` files will be placed in the `./dist/` folder. 
 
 ## Credits
 This project uses Bullma as a CSS framework for the header/hero and the team member cards.  
- The `<body>` background image is graciously provided by: [images.unsplash.com](https://images.unsplash.com/).  
-SVG images hosted by [SVG Repo.com](https://www.svgrepo.com/)  
+The `<body>` background image is graciously provided by: [images.unsplash.com](https://images.unsplash.com/).  
+SVG images hosted by [SVG Repo.com](https://www.svgrepo.com/).
 And special thanks to the hard working developers responsible for the `inquirer' package. 
 
 ## Questions
