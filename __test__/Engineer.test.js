@@ -9,3 +9,9 @@ test('creates a Engineer object', () => {
     expect(engineer.gitHub).toEqual(expect.any(String));
     expect(engineer.type).toBe('Engineer');
 });
+
+test('Checks Engineer role', () => {
+    const engineer = new Engineer('Dave', 69, 'dquinn8@cogeco.ca', 'Qcent');
+
+    expect(engineer.getRole()).toBe('Engineer');
+});

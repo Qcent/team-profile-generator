@@ -17,3 +17,9 @@ test('Employee has a syntactically valid email address', () => {
     expect(worker.email).toEqual(expect.stringMatching(re));
 
 });
+
+test('Checks Employee role', () => {
+    const worker = new Employee('Dave', 69, 'dquinn8@cogeco.ca');
+
+    expect(worker.getRole()).toBe('Employee');
+});

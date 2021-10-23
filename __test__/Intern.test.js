@@ -9,3 +9,9 @@ test('creates a Intern object', () => {
     expect(intern.school).toEqual(expect.any(String));
     expect(intern.type).toBe('Intern');
 });
+
+test('Checks Intern role', () => {
+    const intern = new Intern('Dave', 69, 'dquinn8@cogeco.ca', 'University of Toronto');
+
+    expect(intern.getRole()).toBe('Intern');
+});
