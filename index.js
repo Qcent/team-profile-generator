@@ -1,7 +1,17 @@
 // import Team object and team building methods properties and required classes
 const Team = require("./lib/TeamBuilder");
+
+/* NEED THESE HERE FOR TESTING BUT THEY SHOULD BE REMOVED ONCE THE DATA IS OUTPUT TO SPEC */
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
+/*  */
+
+
 // import generateHTML utility script
 const generateTeamHTML = require("./utils/generateTeamHTML");
+//import write file utility
+const { writeFile, copyFile } = require("./utils/fileUtils");
 
 myTeam = new Team();
 
@@ -24,34 +34,18 @@ startNewTeam()
 
     */
 
-generateTeamHTML({
-    members: [{
-            name: 'Dave',
-            employeeId: '1',
-            email: 'manager@work.email',
-            officeNum: '44',
-            type: 'Team Manager'
-        },
-        {
-            name: 'Tim',
-            employeeId: '2',
-            email: 'timEngineer@work.email',
-            gitHub: 'TimHub',
-            type: 'Engineer'
-        },
-        {
-            name: 'Bob',
-            employeeId: '3',
-            email: 'BobEngineer@work.email',
-            gitHub: 'BobbyHub',
-            type: 'Engineer'
-        },
-        {
-            name: 'Eric',
-            employeeId: '15',
-            email: 'eric_the_intern@work.email',
-            school: 'UofT',
-            type: 'Intern'
-        }
-    ]
-})
+
+
+writeFile(generateTeamHTML({
+        members: [
+            new Manager('Dave', 1, 'manager@work.email', 44),
+            new Engineer('Tim', 2, 'engineer1@work.email', 'TimHub'),
+            new Engineer('Bob', 3, 'engineer2@work.email', 'BobbyHub'),
+            new Intern('Eric', 15, 'eric_the_intern@work.email', 'UofT')
+        ]
+    }))
+    .then(data => {
+        console.log(data);
+        return copyFile();
+    })
+    .then(data => console.log(data))

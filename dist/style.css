@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1536566320732-ccc210d75500?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80");
+}
+
+header.hero {
+    border-bottom-right-radius: 1.3rem;
+    border-bottom-left-radius: 1.3rem;
+}
+
+div.card {
+    display: inline-block;
+    width: 28rem;
+    margin: 2rem;
+    background-color: rgb(226, 234, 243);
+}
+
+.card .card-header.Manager {
+    background-color: coral;
+}
+
+.card .card-header.Engineer {
+    background-color: cadetblue;
+}
+
+.card .card-header.Intern {
+    background-color: cornflowerblue;
+}
+
+.tabs {
+    display: block;
+}
+
+.tabs ul {
+    flex-wrap: wrap;
+    margin-right: 2rem;
+}
+
+.tabs li {
+    width: 100%;
+}
+
+.tabs li:hover {
+    border-radius: .8rem;
+    background-color: rgba(190, 227, 248, .4);
+}
