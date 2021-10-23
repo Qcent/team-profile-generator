@@ -7,4 +7,5 @@ test('creates a Engineer object', () => {
     expect(engineer.employeeId).toEqual(expect.any(Number));
     expect(engineer.email).toEqual(expect.any(String));
     expect(engineer.gitHub).toEqual(expect.any(String));
+    expect(engineer.type).toBe('Engineer');
 });
