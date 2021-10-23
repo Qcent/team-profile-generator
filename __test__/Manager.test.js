@@ -1,6 +1,6 @@
 const Manager = require('../lib/Manager.js');
 
-test('creates a TeamManager object', () => {
+test('creates a Manager object', () => {
     const manager = new Manager('Dave', 69, 'dquinn8@cogeco.ca', 7);
 
     expect(manager.name).toBe('Dave');
