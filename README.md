@@ -28,7 +28,7 @@ Then follow the onscreen questions to build your team profile. Once completed yo
  
 Demo Command Line Video: 
 
-[![Team Profile Generator Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1635023019/video_to_markdown/images/google-drive--1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H/view "Team Profile Generator Demo")
+[![Team Profile Generator Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1635023019/video_to_markdown/images/google-drive--1BDtARZA2CDE9MAn1UIZmyRU5KLkeGM1H-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1w7td_eKbk9Jdk1EOXFr0zXHc2A0-Sc6a/view?usp=sharing)
 
  
 Demo HTML Output:
